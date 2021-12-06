@@ -18,6 +18,7 @@ componentDidCatch(error, info) {
     if (this.state.hasError) {
       return <h1>Oooops. That's not good</h1>
     }
+    console.log (this.props.children)
     return this.props.children
   }
 }
