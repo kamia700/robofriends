@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class ErrorBoundry extends Component {
   // this is to allow access to this.props in the constructor
   constructor(props) {
@@ -18,7 +17,6 @@ componentDidCatch(error, info) {
     if (this.state.hasError) {
       return <h1>Oooops. That's not good</h1>
     }
-    console.log (this.props.children)
     return this.props.children
   }
 }
