@@ -2,8 +2,6 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ( { robots } ) => {
-  // const { name, email, id } = props;
-  // if (true) {throw new Error('Noooo')}
   return (
     <div className='tc'>
       { 

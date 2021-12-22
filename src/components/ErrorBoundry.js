@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class ErrorBoundry extends Component {
-  // this is to allow access to this.props in the constructor
   constructor(props) {
     super(props);
     this.state = {
